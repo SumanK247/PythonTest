@@ -1,11 +1,15 @@
 # import mem_profile
 import random
 import time
+#New line added for SR#1234
+import pandas as pd
 
 names = ['John','Corey','Adam','Steve','Rick','Thomas']
 majors = ['Math', 'Engineering','ComSci','Arts','Business']
 
-# print ('Memory (Before): {}Mb'.format(mem_profile.memory_usage_resource()))
+
+
+print('Hello...')
 
 def people_list(num_people):
 	result = []
@@ -18,6 +22,7 @@ def people_list(num_people):
 		result.append(person)
 	return result
 
+	
 
 def people_generator(num_people):
 	for i in xrange(num_people):
